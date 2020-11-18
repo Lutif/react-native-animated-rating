@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/react-native-animated-rating"><img src="https://img.shields.io/npm/v/react-native-ratings.svg?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/react-native-animated-rating"><img src="https://img.shields.io/npm/dm/react-native-ratings.svg?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/react-native-animated-rating"><img src="https://img.shields.io/npm/v/react-native-animated-rating.svg?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/react-native-animated-rating"><img src="https://img.shields.io/npm/dm/react-native-animated-rating.svg?style=flat-square"></a>
 </p>
 
 
