@@ -1,8 +1,3 @@
-
-
-
-#### Install
-
 <p align="center">
   <a href="https://github.com/Lutif/react-native-animated-rating">
     React Native Animated Ratings
