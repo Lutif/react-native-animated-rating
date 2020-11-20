@@ -68,13 +68,13 @@ export const Rating: React.FC<RatingProps> = ({
           {currentRating >= index + 1 ? (
             <Animated.View style={animationStyle}>
               <Image
-                source={require('@/images/airbnb-star-selected.png')}
+                source={require('./images/airbnb-star-selected.png')}
                 style={[{ width: starSize, height: starSize }]}
               />
             </Animated.View>
           ) : (
             <Image
-              source={require('@/images/airbnb-star.png')}
+              source={require('./images/airbnb-star.png')}
               style={[{ width: starSize, height: starSize }]}
             />
           )}
