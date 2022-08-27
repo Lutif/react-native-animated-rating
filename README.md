@@ -49,8 +49,8 @@ import { Rating } from 'react-native-animated-rating';
 
 | prop | default | type | description |
 | ---- | ---- | ----| ---- |
-| starSize | 30 | number | Pass in size for start image. |
-| defaultRating | 0 | number | Rating value to show if readonly is true. |
+| starSize | 30 | number | Pass in size for star. |
+| defaultRating | 0 | number | Rating start value to show. |
 | count | 5 | number | Number of stars. |
 | readonly | false | boolean | Set true if you want to allow user change ratings. |
 | onRatingFinshed | -- | funtion | Callback method when the user finishes rating. Gives you the final rating value as a whole number|
