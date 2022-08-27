@@ -16,14 +16,14 @@ interface RatingProps {
   defaultRating?: number;
   count?: number;
   readonly?: boolean;
-  onRatingFinshed?: (rating: number) => void;
+  onRatingFinished?: (rating: number) => void;
 }
 export const Rating: React.FC<RatingProps> = ({
   starSize = 30,
   defaultRating = 0,
   count = 5,
   readonly = false,
-  onRatingFinshed = () => {},
+  onRatingFinished = () => {},
 }) => {
   const [currentRating, setCurrentRating] = useState(0);
 
@@ -57,7 +57,7 @@ export const Rating: React.FC<RatingProps> = ({
     if (readonly) {
       return;
     }
-    onRatingFinshed(rating);
+    onRatingFinished(rating);
     setCurrentRating(rating);
     animate();
   };
