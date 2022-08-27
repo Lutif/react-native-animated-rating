@@ -36,7 +36,7 @@ import { Rating } from 'react-native-animated-rating';
   defaultRating={0}
   count={5}
   readonly={false}
-  onRatingFinished={(rating: number) => handleRating(rating) }
+  onRatingFinished={(rating) => console.log(rating) }
 />
 
 ```
