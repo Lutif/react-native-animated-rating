@@ -8,6 +8,9 @@ import {
   Image,
 } from 'react-native';
 
+const starSelected = "https://i.postimg.cc/tC60fZ36/airbnb-star-selected.png";
+const starNotSelected = "https://i.postimg.cc/fRh4hzCr/airbnb-star.png"
+
 interface RatingProps {
   starSize: number;
   defaultRating?: number;
@@ -68,13 +71,13 @@ export const Rating: React.FC<RatingProps> = ({
           {currentRating >= index + 1 ? (
             <Animated.View style={animationStyle}>
               <Image
-                source={require('./images/airbnb-star-selected.png')}
+                source={starSelected}
                 style={[{ width: starSize, height: starSize }]}
               />
             </Animated.View>
           ) : (
             <Image
-              source={require('./images/airbnb-star.png')}
+              source={starNotSelected}
               style={[{ width: starSize, height: starSize }]}
             />
           )}
