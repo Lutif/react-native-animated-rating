@@ -13,8 +13,9 @@
   <a href="https://www.npmjs.com/package/react-native-animated-rating"><img src="https://img.shields.io/npm/dw/react-native-animated-rating.svg?style=flat-square"></a>
 </p>
 
-
-## Installation
+<p align="center">
+<img src="https://i.postimg.cc/pL1YDQCj/ezgif-5-29e59946c6.gif"/>
+</p>## Installation
 
 Install the package using yarn or npm:
 
