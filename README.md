@@ -17,7 +17,9 @@
 <img src="https://i.postimg.cc/pL1YDQCj/ezgif-5-29e59946c6.gif"/>
 </p>
 
+##Demo 
 
+[Live Demo](https://codesandbox.io/s/react-native-animated-rating-r27n5u)
 ## Installation
 
 Install the package using yarn or npm:
